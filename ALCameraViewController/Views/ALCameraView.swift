@@ -19,7 +19,7 @@ public class ALCameraView: UIView {
     
     let cameraQueue = dispatch_queue_create("com.zero.ALCameraViewController.Queue", DISPATCH_QUEUE_SERIAL);
     
-    public var currentPosition = AVCaptureDevicePosition.Back
+    public var currentPosition = AVCaptureDevicePosition.Front
     
     public func startSession() {
         createPreview()
